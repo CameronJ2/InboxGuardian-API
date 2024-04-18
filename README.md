@@ -1,7 +1,7 @@
-#What this is used for:
+# What this is used for:
 Until I can host this on a public server, we will have to run the BERT API locally. This essentially creates a local server that only your LAN can access. A nice part of the API implementation is that it runs MUCH faster than the previous implementation!
 
-#How to use:
+# How to use:
 Run a 'pip install flask' to use the flask package, which is a simple package for webapps. Then, simply run the server.py in an editor or just straight from your file explorer (it'll open in command prompt). If your output looks something like this:
 PS C:\Projects\SeniorProjectAPI> python -u "c:\Projects\SeniorProjectAPI\server.py"
  * Serving Flask app 'server'

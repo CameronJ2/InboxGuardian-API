@@ -13,3 +13,9 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 
 Then you're good to go! You can use APItest.py to test to see if your server is running properly, but make sure you run it from a different folder / working directory.
+
+
+
+# Alternative Testing:
+You can also download and use [Postman](https://www.postman.com) for testing. Set it up something like this:
+![image](https://github.com/CameronJ2/InboxGuardian-API/assets/114731000/9d4f4463-20b4-4724-84a8-2dee77a01546)

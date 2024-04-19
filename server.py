@@ -2,6 +2,9 @@ from flask import Flask, jsonify, request
 from BertTesting import classify_string
 
 app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return 'Hello from Flask!'
 
 @app.route('/api', methods=['POST'])
 def api():
